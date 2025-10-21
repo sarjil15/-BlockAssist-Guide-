@@ -4,6 +4,7 @@ BlockAssist is an AI assistant that learns from its user’s actions in Minecraf
 
 
 # <h1 align="center">👨🏻‍💻 Gensyn BlockAssist Guide 👨🏻‍💻 </h1>
+![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/image_2025-10-14_17-58-16.png)
 
 ## Device/System Requirements 💻
 
@@ -68,6 +69,8 @@ For nvidia:
 - Next & Finish: It gonna run on background
 - ❗Whenever you are going to play the game, you need to open XLaunch everytime and do all the above process:
 
+![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/479251875-8f63ac81-b4eb-4b3b-9d80-3198a5928708.png)
+
 ## Set DISPLAY and Audio to ~/.bashrc
 ```
 echo -e '\n# WSL2 VcXsrv display setup\nexport DISPLAY=$(ip route | grep -m1 default | awk '"'"'{print $3}'"'"'):0.0\nexport LIBGL_ALWAYS_INDIRECT=0\nexport LIBGL_DEBUG=verbose' >> ~/.bashrc
@@ -82,7 +85,9 @@ Test VcXsrv
 ```
 xeyes
 ```
-If a New Tab got pop-up with EYES, Than VcXsrv has set-up perfectly
+  - If a New Tab got pop-up with EYES, Than VcXsrv has set-up perfectly
+  
+![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/479519827-3e48848c-73be-45a4-9602-130a1ac6614e.png)
 
 ## Get Hugging Face API token
 1. Go To: https://huggingface.co & Sign Up with Mail
@@ -170,6 +175,8 @@ python run.py
    - After login, two Minecraft windows will be pop-up (could take a while to open)
    - After that Press ENTER in your UBUNTU/WSL
    - Now go to first Minecraft window & Press Enter twice & move your player with wasd keys on keyboard
+   
+![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/487757921-ff20d555-b499-4634-8045-6ce834217040%20(1).png)
 8. How to play? 
 - watch video: https://www.youtube.com/watch?v=bASaYW0n13w
 
@@ -198,10 +205,12 @@ python run.py
 <h1 align="center">Grab Block Role 🦾</h1>
 
 ## 1. First of all your have to take SWARM Role: Follow https://github.com/sarjil15/Gensyn-Rl-Swarm_Guide
-## 2. Go to 🐝@The Swarm channel in DC
-## 3. Type & send  /block-verify `
+## 2. Go to `🐝@The Swarm` channel in DC
+## 3. Type & send `/block-verify`
 ## 4. Now a Form will pop-up
+![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/481320540-f3f352e1-c191-4ed1-b4f3-d03e3d1d822b.png)
 ## 5. Enter your Huggingface Block model URL from your Profile
+![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/481320727-aa7b68e4-8dd2-4cbb-a878-ee13c7c25e6c.png)
 ## 6. Enter READ ONLY Huggingface User Token FROM HERE
 ## DONE:✔️✔️✔️
 
