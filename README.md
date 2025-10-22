@@ -146,7 +146,7 @@ pip install psutil readchar rich
 1. Move to modal-login Directory & install yarn packages
    - Why? To prevent future terminated error
 ```
-cd ~/blockassist/modal-login |
+cd ~/blockassist/modal-login
 ```
 ```
 yarn install && yarn dev
