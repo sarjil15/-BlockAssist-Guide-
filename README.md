@@ -211,7 +211,7 @@ python run.py
 ![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/481320540-f3f352e1-c191-4ed1-b4f3-d03e3d1d822b.png)
 ## 5. Enter your Huggingface Block model URL from your Profile
 ![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/481320727-aa7b68e4-8dd2-4cbb-a878-ee13c7c25e6c.png)
-## 6. Enter READ ONLY Huggingface User Token FROM HERE
+## 6. Enter Huggingface URL FROM HERE
 ## DONE:✔️✔️✔️
 
 <h1 align="center">📈 Upgrade to new release {v0.1.0}</h1>
