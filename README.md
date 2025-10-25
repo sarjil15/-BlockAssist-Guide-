@@ -72,15 +72,17 @@ For nvidia:
 ![image](https://github.com/sarjil15/-BlockAssist-Guide-/blob/44a1002ca10e6527f9fee3210d8b7c4fc9823f00/479251875-8f63ac81-b4eb-4b3b-9d80-3198a5928708.png)
 
 ## Set DISPLAY and Audio to ~/.bashrc
-```
-echo -e '\n# WSL2 VcXsrv display setup\nexport DISPLAY=$(ip route | grep -m1 default | awk '"'"'{print $3}'"'"'):0.0\nexport LIBGL_ALWAYS_INDIRECT=0\nexport LIBGL_DEBUG=verbose' >> ~/.bashrc
-```
 
-Reload ~/.bashrc
+## In CMD or PowerShell
 ```
-source ~/.bashrc
+ipconfig
 ```
+Find your IPv4 Address `(e.g., 192.168.1.10)`
 
+Set DISPLAY to your Windows IP (Example: export DISPLAY=192.168.1.10:0)
+```
+export DISPLAY=<YOUR_WINDOWS_IP>:0
+```
 Test VcXsrv
 ```
 xeyes
