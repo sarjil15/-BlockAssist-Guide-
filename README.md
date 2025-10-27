@@ -79,10 +79,24 @@ ipconfig
 ```
 Find your IPv4 Address `(e.g., 192.168.1.10)`
 
+## Now in WSL Run:
+```
+sudo apt-get update -y
+sudo apt-get install -y x11-apps x11-xserver-utils
+```
+
 Set DISPLAY to your Windows IP (Example: export DISPLAY=192.168.1.10:0)
 ```
 export DISPLAY=<YOUR_WINDOWS_IP>:0
 ```
+```
+sudo apt-get update -y
+sudo apt-get install -y x11-apps x11-xserver-utils
+```
+```
+echo $DISPLAY
+```
+
 Test VcXsrv
 ```
 xeyes
