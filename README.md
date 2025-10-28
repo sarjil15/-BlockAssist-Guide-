@@ -232,16 +232,21 @@ python run.py
 
 <h1 align="center">📈 Upgrade to new release {v0.1.0}</h1>
 
-We wont directly upgrade to v0.1.0 through git pull, instead we will remove the repo and will clone from scratch to optimized full changes
+```
+cd blockassist
+```
+```
+git pull
+```
+For Mac:  
+```
+pyenv exec python run.py --reload-dependencies
+```
+For Linux: 
+```
+python run.py --reload-dependencies
+```
 
-1. Remove blockassist & pyenv Repo
-```
-sudo rm -rf ~/blockassist
-```
-```
-sudo rm -rf ~/.pyenv
-```
-2. Now follow all the process from Clone & move to blockassist Repo
 Done✔️✔️
 
 
